@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
+
+#nav {
+    margin: 0;
+}
+
+#nav li {
+    padding: 0;
+}
+
+.menuitem {
+    height: 120px;
+    text-align: center;
+    padding: 0;
+}
+
+.menuitem a {
+    width: 100%;
+    text-decoration: none;
+    color: #ffffff;
+    height: 120px;
+}
+
+
+.menuitem a i {
+    padding-top: 22px;
+    display: block;
+    color: #fafafa;
+    font-size: 26px;
+}
+
+.menuitem span {
+    display: block;
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+
+/*--------------------------------------------Hover.css*/
+
+.hvr-sweep-to-bottom:before {
+    background: rgba(0, 0, 0, 0.2);
+    height: 120px;
+}
+
+/*--------------------------------------------Colors*/
+
+.bg-color-name-title {
+    background-color: #676767;
+}
+
+.ui-menu-color-home {
+    background-color: #999696;
+}
+
+.ui-menu-color-why-switch {
+    background-color: #999696;
+}
+
+.ui-menu-color-find-your-ev {
+    background-color: #999696;
+}
+
+.ui-menu-color-contact {
+    background-color: #999696;
+}
+
+
+
+
+body {
+    font-family: Roboto Mono, sans-serif;
+    font-weight: 200;
+    background-color: #fffff;
+    color: #555555;
+}
